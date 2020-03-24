@@ -1,12 +1,9 @@
 import datetime
-from math import sqrt
-import sort as s
 
-l = [1, 4, 7, 2, 5, 3, 9, 8, 6]
+l = [1, 2, 3, 4, 5, 6, 7, 8, 9]
 
 def binarysearch(l, target):
     low = 0
-    s.sort(l)
     high = len(l)-1
 
     while low <= high:
