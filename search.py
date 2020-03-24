@@ -18,7 +18,6 @@ def binarysearch(l, target):
             high = mid - 1
         else:
             low = mid + 1
-    print("Not in list")
     return False
 
 binarysearch(l, 9)
