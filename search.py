@@ -33,14 +33,4 @@ def binarysearch(l, target):
     print("Not in list")
     return False
 
-
-
-if __name__ == 999:
-    x = int(datetime.datetime.utcnow().timestamp()*1000000) * 49321
-    for i in range(10):
-        y = int((x % 10**13) / 10**7)
-        print(y, x)
-        x *= 245667565463968905578
-        x %= 10**21
-
 binarysearch(l, 12)
